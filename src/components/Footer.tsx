@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -8,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-3">
             <Link to="/" className="font-bold text-resume-primary">
-              ResumeAI
+              RESUMEREVAMPAI
             </Link>
             <p className="text-sm text-muted-foreground">
               AI-powered resume builder and checker for professional resumes.
@@ -72,7 +71,7 @@ const Footer = () => {
         </div>
         <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t py-6 md:flex-row">
           <p className="text-xs text-muted-foreground">
-            © 2025 ResumeAI. All rights reserved.
+            © 2025 RESUMEREVAMPAI. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link to="/privacy" className="text-xs text-muted-foreground hover:text-resume-primary">
